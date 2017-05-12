@@ -7,14 +7,14 @@
 	padding-right:0 !important;
     height: 88px;
     width: 100%;
-    margin: 0 auto;
+    /*margin: 0 auto;
     position: fixed;
-    z-index: 999999;
+    z-index: 999999;*/
 }
 
-.nav-up {
+/*.nav-up {
     top: -88px;
-}
+}*/
 
 .dropdown{
 	display: none;
@@ -25,7 +25,6 @@
  	background-size:1140px 208px;
  	width: 1140px;
  	height: 208px;
- 	margin-top:88px;
 }
 
 h1#page-title{
@@ -62,6 +61,12 @@ ul.list-research{
 	padding-left: 15px;
 }
 
+/*HACKATHON PAGE*/
+img.img-hackathon{
+	width:100%;
+	margin-bottom:16px;
+}
+
 @media (max-width: 375px) {
 	.desktop-imgs{
 		display: none;
@@ -92,25 +97,32 @@ ul.list-research{
 		width: 100%;
 		text-align: left;
 		background-color: #ccc;
+		border-radius:0;
+		height:48px;
 	}
 
 	.dropdown-menu{
 		width: 100%;
-		position: relative;
 		margin-bottom: 24px;
+		border-radius: 0;
 	}
 
 	.dropdown-menu li{
 		padding-left: 0.5rem;
 	}
-	
+
+	.dropdown.fixed {
+		position:fixed;
+		z-index: 999999;
+		width:93%;
+		margin-top: -324px;
+	}
 
 	.hero{
 	 	background-image: url("../images/hero-simple-model-mob.jpg");
 	 	background-size:320px 208px;
 	 	width: 100%;
 	 	height: 208px;
-	 	margin-top:88px;
 	}
 
 	.second-container {
@@ -126,5 +138,6 @@ ul.list-research{
 		padding-left: 0;
 		padding-right: 0;
 	}
+
 
 }
