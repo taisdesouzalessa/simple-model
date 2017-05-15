@@ -61,6 +61,12 @@ ul.list-research{
 	padding-left: 15px;
 }
 
+.desktop-menu.fixed-side{
+	position:fixed;
+	top: 56px;
+	width: 255px;
+}
+
 /*HACKATHON PAGE*/
 img.img-hackathon{
 	width:100%;
