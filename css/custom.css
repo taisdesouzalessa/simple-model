@@ -51,6 +51,10 @@ ul.desktop-menu li:first-child {
 	border-top: 1px solid #000000;
 }
 
+.margin-top-mob.fixed{
+	margin-top:74px;
+}
+
 .second-container{
 	margin-top:56px;
 	margin-bottom:56px;
@@ -104,7 +108,7 @@ img.img-hackathon{
 		text-align: left;
 		background-color: #ccc;
 		border-radius:0;
-		height:48px;
+		height:56px;
 	}
 
 	.dropdown-menu{
@@ -120,8 +124,9 @@ img.img-hackathon{
 	.dropdown.fixed {
 		position:fixed;
 		z-index: 999999;
-		width:93%;
+		width:100%;
 		margin-top: -324px;
+		margin-left: -15px;
 	}
 
 	.hero{
