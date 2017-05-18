@@ -51,9 +51,6 @@ ul.desktop-menu li:first-child {
 	border-top: 1px solid #000000;
 }
 
-.margin-top-mob.fixed{
-	margin-top:74px;
-}
 
 .second-container{
 	margin-top:56px;
@@ -69,6 +66,10 @@ ul.list-research{
 	position:fixed;
 	top: 56px;
 	width: 255px;
+}
+
+a.desktop-selected{
+	color:#cccccc;
 }
 
 /*HACKATHON PAGE*/
@@ -125,7 +126,7 @@ img.img-hackathon{
 		position:fixed;
 		z-index: 999999;
 		width:100%;
-		margin-top: -324px;
+		margin-top: -320px;
 		margin-left: -15px;
 	}
 
@@ -150,5 +151,16 @@ img.img-hackathon{
 		padding-right: 0;
 	}
 
+	a.mobile-selected{
+		color:#cccccc;
+	}
+
+	.dropdown.fixed .dropdown-menu{
+		margin-top:-1px;
+	}
+
+	.margin-top-mob.fixed{
+		margin-top:74px;
+	}
 
 }

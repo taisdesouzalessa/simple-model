@@ -1,6 +1,6 @@
 
 $(window).on('scroll', function () {
-    if ($(window).scrollTop() >= 324) {
+    if ($(window).scrollTop() >= 296) {
         $('.dropdown').addClass('fixed');
         $('.margin-top-mob').addClass('fixed');
     } else {
